@@ -1,0 +1,109 @@
+h1{
+  text-align: center;
+
+  font-size: 60px ;
+}
+
+#nam{
+  font-family: monospace;
+  color: black ;
+}
+
+#intro{
+  text-align: center;
+  font-family: "Indie Flower" , cursive;
+  text-shadow: 4px 4px 40px #808080 ;
+  color: black ;
+}
+#dis{
+text-align: center;
+/*text-shadow: 2px 2px 2px #808080*/
+}
+
+#sum1{
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: yellow ;
+  font-family: "roboto" , monospace;
+  text-rendering: optimizeLegibility;
+  text-indent: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+#sum2{
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: yellow ;
+  font-family: "Roboto" , monospace; ;
+  text-rendering: optimizeLegibility;
+  text-indent: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+#ppt{
+  text-align: center;
+  font-family: "rock salt" , monospace;
+}
+
+#ans{
+  text-align: center;
+  font-size: 72px ;
+  font-family: "Roboto" , monospace;
+}
+
+hr{
+  border-style: solid;
+  border-width: medium;
+  border-color: black ;
+  border-radius: 50px;
+}
+
+#thin{
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 50px;
+}
+
+#th{
+  border-style: dotted;
+  border-width: thin;
+  border-color: black;
+}
+
+#int{
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  border-radius: 50px;
+}
+
+a:hover{
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+#love{
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 20px ;
+  font-family: "Indie Flower" , monospace;
+}
+
+#lov{
+  border-style: dashed;
+  border-width: medium;
+  border-color: #ff311c;
+  border-radius: 50px;
+  }
+
+button{
+  font-family: quicksand , sans-serif;
+  font-size: 13px ;
+}
