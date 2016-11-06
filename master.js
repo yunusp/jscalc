@@ -217,3 +217,6 @@ function test() {
   var num2 = document.getElementById("sum2").innerHTML ;
   document.getElementById("ans").innerHTML = num1+ "<br>"+ num2 ;
 }
+
+function gcd(){
+}
