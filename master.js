@@ -218,5 +218,15 @@ function test() {
   document.getElementById("ans").innerHTML = num1+ "<br>"+ num2 ;
 }
 
-function gcd(){
+function gcd() {
+  document.getElementById("ans").innerHTML = "loading"
+  var num1 = document.getElementById("sum1").innerHTML;
+  var num2 = document.getElementById("sum2").innerHTML;
+  var remainder = Number(num1) % Number(num2);
+  while (remainder != 0) {
+    num1 = num2 ;
+    num2 = remainder ;
+  }
+  document.getElementById("ans").innerHTML = num2 ;
 }
+
