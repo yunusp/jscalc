@@ -4,6 +4,12 @@ h1{
   font-size: 60px ;
 }
 
+.buthr{
+  border-style: solid;
+  border-width: thin;
+}
+
+
 #nam{
   font-family: monospace;
   color: black ;
@@ -106,4 +112,74 @@ a:hover{
 button{
   font-family: quicksand , sans-serif;
   font-size: 13px ;
+}
+
+/*tooltips*/
+
+span{
+  display: none;
+}
+
+button.add:hover .tooladd{
+  display: block;
+}
+
+button.sub:hover .toolsub{
+  display: block;
+}
+
+button.pro:hover .toolpro{
+  display: block;
+}
+
+button.quo:hover .toolquo{
+  display: block;
+}
+
+button.mod:hover .toolmod{
+  display: block;
+}
+
+button.exp:hover .toolexp{
+  display: block;
+}
+
+button.conc:hover .toolconc{
+  display: block;
+}
+
+button.root:hover .toolroot{
+  display: block;
+}
+
+button.spec:hover .toolrooth{
+  display: block;
+}
+
+button.rnd:hover .toolrnd{
+  display: block;
+}
+
+button.in:hover .toolin{
+  display: block;
+}
+
+button.table:hover .tooltab{
+  display: block;
+}
+
+button.ans:hover .toolans{
+  display: block;
+}
+
+button.sumans:hover .tooltonum{
+  display: block;
+}
+
+#button{
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
